@@ -1,7 +1,7 @@
 # php-paginator
 A pagination class for php. 
 
-# Usage
+## Usage
 
 You can instantiate the class like this:
 
