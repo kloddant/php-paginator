@@ -22,7 +22,7 @@ The 'number_of_objects' parameter is required.  The rest are optional.  After it
 	$paginator->next()  			# Returns a page dictionary.
 	$paginator->first()  			# Returns a page dictionary.
 	$paginator->last()  			# Returns a page dictionary.
-	$paginator->pages  			# Returns a list of page dictionaries.
+	$paginator->pages  			# list of page dictionaries.
 	$paginator->current_page_number  	# integer
 	$paginator->per_page  			# integer
 	$paginator->number_of_objects  		# integer
