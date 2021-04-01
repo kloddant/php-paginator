@@ -1,0 +1,44 @@
+nav.pagination {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 10px auto;
+	height: 27px;
+	text-align: center; 
+}
+nav.pagination > a {
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	cursor: pointer;
+}
+nav.pagination > a:hover {
+	
+}
+nav.pagination > a.page {
+	color: #98989a;
+	margin: 0px 10px;
+	padding: 0px 5px;
+}
+nav.pagination > a.page.current {
+	color: black;
+	background-color: rgb(230, 230, 230);
+	border-radius: 50%;
+}
+nav.pagination > a.previous, nav.pagination > a.next {
+	color: #3f5364;
+}
+nav.pagination > a.previous.disabled, nav.pagination > a.next.disabled {
+	color: #98989a;
+	pointer-events: none;
+	cursor: not-allowed;
+}
+nav.pagination > a.previous {
+	margin-right: 30px;
+}
+nav.pagination > a.next {
+	margin-left: 30px;
+}
