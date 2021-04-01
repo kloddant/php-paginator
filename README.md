@@ -3,6 +3,8 @@ A pagination class for php.
 
 ## Usage
 
+You can instantiate this class and use its properties and methods to display pagination on a webpage.  It does not handle the html or the css, but it provides methods and properties that you can call and loop over, and it handles the 'page' and 'per_page' GET parameters so that you don't have to mess around with url query strings.
+
 You can instantiate the class like this:
 
     <?php
