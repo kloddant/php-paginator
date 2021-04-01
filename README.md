@@ -27,7 +27,7 @@ You can instantiate the class like this:
 		));
 	?>
 
-The 'number_of_objects' parameter is required.  The rest are optional.  After it is initiated, you can call:
+The 'number_of_objects' parameter is required.  The rest are optional.  After it is instantiated, you can call:
 
 	$paginator->previous()  		# Returns a page dictionary.
 	$paginator->next()  			# Returns a page dictionary.
