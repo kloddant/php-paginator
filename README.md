@@ -4,6 +4,8 @@ A pagination class for php.
 
 == Usage ==
 
+You can initiate the class like this:
+
     <?php
 	
 		if (!function_exists('dict_get')) {
@@ -25,3 +27,22 @@ A pagination class for php.
 			"per_page" => $per_page,
 		));
 	?>
+
+The 'number_of_objects' parameter is required.  The rest are optional.  After it is initiated, you can call:
+
+	$paginator->previous()  		# Returns a page dictionary.
+	$paginator->next()  			# Returns a page dictionary.
+	$paginator->first()  			# Returns a page dictionary.
+	$paginator->last()  			# Returns a page dictionary.
+	$paginator->pages  			# Returns a list of page dictionaries.
+	$paginator->current_page_number  	# integer
+	$paginator->per_page  			# integer
+	$paginator->number_of_objects  		# integer
+	$paginator->number_of_pages  		# integer
+	$paginator->last_page_number  		# integer
+	
+Page dictionaries contain the page url, number, and a boolean field denoting whether or not it is the current page.
+
+	$page['url']  				# string
+	$page['number']  			# integer
+	$page['current']  			# boolean
