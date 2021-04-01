@@ -1,10 +1,9 @@
 # php-paginator
-A pagination class for php.
+A pagination class for php. 
 
+# Usage
 
-== Usage ==
-
-You can initiate the class like this:
+You can instantiate the class like this:
 
     <?php
 	
@@ -46,3 +45,5 @@ Page dictionaries contain the page url, number, and a boolean field denoting whe
 	$page['url']  				# string
 	$page['number']  			# integer
 	$page['current']  			# boolean
+	
+See the example folder for further details.
